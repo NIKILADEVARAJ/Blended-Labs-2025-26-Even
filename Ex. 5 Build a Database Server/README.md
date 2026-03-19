@@ -2,9 +2,9 @@
 
 ## Author
 
-* **Name**: ________________________________
-* **Register Number**: _____________________
-* **Date of Submission**: __________________
+* **Name**:NIKILA D
+* **Register Number**:212224230187
+* **Date of Submission**:19-03-2026
 
 ---
 
@@ -82,13 +82,13 @@ Test the database server by connecting to it locally or remotely and performing 
 
 ## Workflow (Student Explanation)
 
-(Write the steps you followed in your own words)
-
-1. ---
-2. ---
-3. ---
-4. ---
-5. ---
+1. Logged into the AWS Management Console and launched a new EC2 instance using Amazon Linux 2 AMI, selected instance type, created key pair, and configured security group.
+2. Modified the security group to allow SSH (port 22) and MySQL port (3306) for database access.
+3. Connected to the EC2 instance using SSH from my local system using the key pair.
+4. Installed the MySQL database server using package manager commands (sudo yum install mysql-server).
+5. Started the MySQL service and enabled it, then secured the installation by setting a root password and configuring basic settings.
+6. Created a sample database and table using SQL commands and inserted sample records.
+7. Tested the database by running queries to retrieve data and verified that the database server was working correctly.
 
 ---
 
@@ -96,19 +96,19 @@ Test the database server by connecting to it locally or remotely and performing 
 
 ### Screenshot 1: EC2 Instance for Database Server
 
-(Insert Screenshot Here)
+<img width="1919" height="1079" alt="Screenshot 2026-03-12 103632" src="https://github.com/user-attachments/assets/a341dfd0-bcae-4642-aa44-e476455c0373" />
 
 ---
 
 ### Screenshot 2: Database Service Running
 
-(Insert Screenshot Here)
+<img width="1919" height="1079" alt="Screenshot 2026-03-12 104215" src="https://github.com/user-attachments/assets/ef656f8f-986b-4af1-a2d1-c4dc3d5bc87c" />
 
 ---
 
 ### Screenshot 3: Sample Database and Table
 
-(Insert Screenshot Here)
+<img width="1916" height="1079" alt="Screenshot 2026-03-12 104405" src="https://github.com/user-attachments/assets/d756f09f-77fe-40fb-b166-e1a15540f747" />
 
 ---
 
