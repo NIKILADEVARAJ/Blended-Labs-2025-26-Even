@@ -66,14 +66,25 @@ Students test the setup by generating traffic and observing automatic scaling an
 
 ## Workflow (To be filled by Student)
 
-Describe step-by-step how you performed this experiment in your own words.
+1. Logged into the AWS Management Console and reviewed the existing EC2 architecture created in previous labs.
+2. Created a Launch Template by selecting an AMI, instance type, key pair, security group, and added user data for application setup.
+3. Configured an Auto Scaling Group (ASG) using the launch template and set minimum, desired, and maximum number of instances.
+4. Created an Application Load Balancer (ALB) and configured listeners and a target group.
+5. Attached the Auto Scaling Group to the target group so that traffic is distributed across instances.
+6. Set up scaling policies using CloudWatch alarms based on CPU utilization (scale out and scale in conditions).
+7. Generated traffic to test the system and observed automatic scaling and load balancing across EC2 instances.
+8. Verified fault tolerance by stopping an instance and confirming that the ASG launched a new instance automatically.
 
 ---
-
 ## Output Screenshots 
 
 
----
+<img width="1919" height="1079" alt="Screenshot 2026-03-12 110206" src="https://github.com/user-attachments/assets/83289ec8-44be-4f18-9b82-23a0fac70544" />
+<img width="1919" height="1079" alt="Screenshot 2026-03-12 110618" src="https://github.com/user-attachments/assets/c94b4a33-3ce1-43b9-9223-27b2056e3969" />
+<img width="1919" height="1079" alt="Screenshot 2026-03-12 111745" src="https://github.com/user-attachments/assets/52025c8a-28b7-4037-a3fe-767bd57bd896" />
+<img width="1919" height="1041" alt="Screenshot 2026-03-12 112635" src="https://github.com/user-attachments/assets/526dea5a-ffb9-4860-8a07-f7cf22678d9d" />
+<img width="1918" height="1078" alt="Screenshot 2026-03-12 212820" src="https://github.com/user-attachments/assets/e9dfd607-61e8-480f-9a85-5a3bbfd87782" />
+<img width="1919" height="1079" alt="Screenshot 2026-03-12 212941" src="https://github.com/user-attachments/assets/33d2a546-51cb-473a-a644-01ca9e615b5e" />
 
 
 ## Result
